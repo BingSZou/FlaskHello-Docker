@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  pythonhello:
+    image: pythonhello
+    build:
+      context: .
+      dockerfile: ./Dockerfile
